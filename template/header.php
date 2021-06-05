@@ -4,7 +4,6 @@
         top: 0;
         right: 0;
         width: 77%;
-        
         padding-bottom: 2%;
     }
     .logo-cover img{
