@@ -9,6 +9,5 @@
 </head>
 <body>
     <?php include "template/header.php"; ?>
-    <?php include "template/sidebar.html"; ?>
 </body>
 </html>
