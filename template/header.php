@@ -57,14 +57,17 @@
         width: 70%;
         float: right;
     }
-    main .second-part input[type="text"] {
+    main .second-part input[type="search"] {
         width: 100%;
-        border: 1px solid #f1f1f1;
+        border: 1px solid transparent;
         padding: 2%;
-        padding-top: 1.5%;
-        padding-bottom: 1.5%;
-        border-radius: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 5px;
         font-family: 'Open Sans', sans-serif;
+        background-color: #fff;
+        color: #000;
+        outline: none;
     }
 </style>
 <header>
@@ -93,7 +96,7 @@
         </div>
         <div class="second-part">
             <section>
-                <input type="text" placeholder="Search for brands">
+                <input type="search" placeholder="Search for brands">
             </section>
         </div>
         <div class="third-part">
