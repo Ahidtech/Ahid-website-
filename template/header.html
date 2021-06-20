@@ -1,0 +1,69 @@
+<style>
+    .template-header{
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+        padding-top: 6%;
+        padding-bottom: 2px;
+        text-align: center;
+        z-index: 2;
+    }
+    .template-header main{
+        width: 90%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin: auto;
+    }
+    .template-header section{
+        width: 30%;
+    }
+    .template-header section div{
+        width: 40%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .template-header main > :first-child div{
+        text-align: left;
+    }
+    .template-header main > :last-child, div{
+        text-align: right;
+        width: 42%;
+    }
+    .template-header img{
+        height: 25px;
+    }
+    .template-header span{
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+</style>
+<header class="template-header">
+    <main>
+        <section>
+            <div>
+                <img src="src/icon/message-4652.svg" alt="">
+            </div>
+            <div>
+                <span>Ahid</span>
+            </div>
+        </section>
+        <section>
+            <div>
+                <img src="src/icon/message-4652.svg" alt="">
+            </div>
+            <div>
+                <img src="src/icon/message-4652.svg" alt="">
+            </div>
+        </section>
+    </main>
+</header>
