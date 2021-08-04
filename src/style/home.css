@@ -1,9 +1,12 @@
 .home-main{
-    margin-top: 19%;
+    margin-top: 14%;
+    margin-bottom: 20%;
 }
 .home-main header{
-    padding-top: 2%;
+    padding-top: 5%;
     padding-bottom: 5%;
+    border-bottom: 1px solid hsl(0, 0%, 95%);
+    background-color: #fff;
 }
 .home-main header div{
     width: 10%;
@@ -13,8 +16,9 @@
 }
 .home-main header > :last-child{
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     width: 70%;
-    color: orangered;
+    color: #ff465b;
     font-weight: bold;
     vertical-align: middle;
 }
@@ -26,12 +30,15 @@
 
 article{
     margin-top: 3%;
+    border-bottom: 3px solid #f9f9f9;
+    padding-bottom: 3%;
 }
 article > :first-child{
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff;
 }
 .brand-cover{
     width: 100%;
@@ -39,6 +46,7 @@ article > :first-child{
 .brand-cover-one{
     text-align: left;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 .brand-name div{
     text-align: left;
@@ -77,11 +85,34 @@ article .second-section div{
 article .second-section img{
     height: 25vh;
     width: 100%;
+    border-radius: 10px;
     object-fit: cover;
 }
-article .second-section > :last-child{
+article .action-section{
+    margin-top: 2%;
+}
+article .action-div{
+    width: 35%!important;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+article .action-div div{
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    color: grey;
-    font-weight: bold;
+}
+article .action-div img{
+    height: 25px;
+    width: 25px;
+}
+article .share-div{
+    width: 30%;
+    float: right;
+}
+article .share-div div{
+    width: 97%;
+    text-align: right;
+}
+article .share-div img{
+    height: 25px;
+    width: 25px;
 }

@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding: 2%;
+    margin: 0;
+    font-family: "poppings", sans-serif;
+}
+.settings_header{
+    width: 100%;
+}
+.carrier{
+    width: 100%;
+}
+.settings_header .carrier div{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.settings_header div img{
+    width:25px;
+    height: 25px;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+/*the settings body*/
+
+.settings{
+    margin-top: 5%;
+    width: 90%;
+    margin: auto;
+}
+.business{
+    margin-top: 2%;
+}
+.business section{
+    border-bottom: 1px solid #f1f1f1;
+    width: 100%;
+}
+.business header{
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 3%;
+}
+.business a{
+    display: block;
+    width: 94%;
+    padding: 3%;
+    padding-top: 6%;
+    text-decoration: none;
+    color: #000;
+}
+.business a div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.business a > :first-child{
+    width: 5%;
+}
+.business a > :last-child{
+    width: 85%;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.business a img{
+    height: 19px;
+    width: 19px;
+}

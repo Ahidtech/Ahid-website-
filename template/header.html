@@ -11,6 +11,7 @@
         padding-bottom: 2px;
         text-align: center;
         z-index: 2;
+        transition: opacity 0.2s ease-in-out;
     }
     .template-header main{
         width: 90%;
@@ -36,7 +37,7 @@
     }
     .template-header main > :last-child, div{
         text-align: right;
-        width: 42%;
+        width: 35%;
     }
     .template-header img{
         height: 25px;
@@ -46,9 +47,124 @@
         font-size: 18px;
         font-weight: bold;
     }
+
+    /* SEARCH SECTION HERE!!!!!! */
+    .search{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        margin-top: 2%;
+        border-bottom: 1px solid #f1f1f1;
+        display: none;
+    }
+    .search div{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .search section{
+        display: inline-block;
+        vertical-align: middle;
+        margin: auto;
+    }
+    #section1{
+        width: 12%;
+        margin: auto;
+        text-align: center;
+    }
+    #section2{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    #section3{
+        width: 12%;
+        margin: auto;
+        text-align: center;
+    }
+    #section2 [type="search"] {
+        border: 0;
+        padding: 1%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 96%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        margin: auto;
+        display: inline-block;
+        vertical-align: middle;
+        outline: none;
+    }
+    .search img{
+        margin: auto;
+        vertical-align: middle;
+    }
+
+    .search .suggestions{
+        background-color: #fff;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        max-height: 70vh;
+        width: 95%;
+        border: 1px solid #f1f1f1;
+    }
+    .search .suggestions-main{
+        width: 100%;
+        background-color: #fff;
+    }
+    .suggestions-main-header{
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .suggestions-main-header header{
+        width: 30%;
+        font-family: 'Poppins', sans-serif;
+    }
+    .suggestions-main-header > :first-child{
+        border-bottom: 2px solid #5e5e5e;
+    }
+    .suggestions-main-options{
+        display: block;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    .product-section{
+        width: 100%;
+        background-color: yellow;
+    }
+    .product-section div{
+        width: 100%;
+        background-color: red;
+    }
+    .product-section .search-result{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .search-result-image{
+        width: 30%;
+    }
+    .search-result-name{
+        width: 65%;
+    }
+    .search-result-image img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .brand-section{
+        display: none;
+    }
 </style>
 <header class="template-header">
-    <main>
+    <main class="main sub" data-name="main">
         <section>
             <div>
                 <img src="src/icon/message-4652.svg" alt="">
@@ -59,11 +175,55 @@
         </section>
         <section>
             <div>
-                <img src="src/icon/message-4652.svg" alt="">
+                <a href="shopping-cart.php">
+                    <img src="src/icon/message-4652.svg" alt="">
+                </a>
             </div>
             <div>
-                <img src="src/icon/message-4652.svg" alt="">
+                <img src="src/icon/magnifying-glass.svg" alt="" onclick="toggle_search(this)">
             </div>
         </section>
     </main>
+    <div class="search sub" data-name="search">
+        <div>
+            <section id="section1">
+                <img src="src/icon/message-4652.svg" class="search-toggle" alt="" onclick="toggle_search(this)">
+            </section>
+            <section id="section2">
+                <input type="search" name="search-bar" id="search-bar" placeholder="Search for items here" autocomplete="off" autofocus>
+            </section>
+            <section id="section3">
+                <img src="src/icon/magnifying-glass.svg" class="search-toggle" alt="">
+            </section>
+        </div>
+        <div class="suggestions">
+            <div class="suggestions-main">
+                <div class="suggestions-main-header">
+                    <header>Products</header>
+                    <header>Brands</header>
+                </div>
+                <div class="suggestions-main-options">
+                    <section class="product-section">
+                        <div>
+                            <div class="search-result search-result-image">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="">
+                            </div>
+                            <div class="search-result search-result-name">
+                                Nike Air Max
+                            </div>
+                        </div>
+                    </section>
+                    <section class="brand-section">
+                        <div class="search-result brand-image">
+
+                        </div>
+                        <div class="search-result">
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
+<script src="src/js/header.js"></script>
