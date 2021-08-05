@@ -1,0 +1,58 @@
+.container{
+    width: 95%;
+    margin: auto;
+}
+main{
+    width: 100%;
+}
+main section{
+    position: absolute;
+    top: 0;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: fit-content;
+}
+main section{
+    width: 100%;
+    margin: auto;
+}
+main section > :first-child{
+    width: fit-content;
+    margin: auto;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+main section > :last-child{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+main section > :last-child div{
+    width: 43%;
+    text-align: center;
+}
+main section > :last-child div a{
+    display: block;
+    background-color: dodgerblue;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 100%;
+    text-decoration: none;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    border-radius: 40px;
+    cursor: auto;
+}
+
+footer{
+    position: fixed;
+    top: 0;
+}

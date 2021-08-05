@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "poppings", sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.container main{
+    width: 100%;
+    background-color: black;
+}
+
+.container main section{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container main section:first-child{
+    text-align: left;
+    background-color: red;
+}
+
+.container main section:nth-child(2){
+    text-align: center;
+    width: 33%;
+    background-color: blue;
+}
+
+.container main section:last-child{
+    text-align: right;
+    background-color: green;
+}
+
+.container main section img{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+.container main section:nth-child(2) div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
