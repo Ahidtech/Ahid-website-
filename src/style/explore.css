@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    padding: 2%;
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.explore-main{
+    width: 100%;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.explore-header{
+    width: 100%;
+    padding-bottom: 2%;
+}
+.explore-header > :first-child{
+    width: 80%;
+    text-align: left;
+    color: grey;
+    font-weight: 900;
+    margin-left: 2.5%;
+}
+.explore-header span{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+
+.explore-brands{
+    width: 100%;
+}
+.brands-header{
+    text-align: left;
+}
+.contents{
+    margin-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: left;
+}
+.brands-header div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.brands-header > :first-child{
+    width: 70%;
+}
+
+.brands-header div h1{
+    text-align: left;
+}
+.brands-header > :nth-child(2){
+    width: 20%;
+    float: right;
+}
+
+.brands-header img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.explore-brands .contents{
+    width: 100%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    border-bottom: 1px solid #f0efef;
+}
+
+.explore-brands .contents a{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+
+.explore-brands .contents > :first-child{
+    margin-left: 0;
+}
+
+.explore-brands .contents img{
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.explore-brands .large-logo{
+    width: fit-content;
+    margin: 0;
+}
+
+.explore-brands .brand-name{
+    margin: 0;
+    width: 100%;
+    padding-left: 2%;
+}
+
+.explore-brands .brand-name span{
+    padding:0;
+    margin:0;
+    display: block;
+    text-align: left;
+}
+
+.recent{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.recent-contents{
+    width: 100%;
+    text-align: left;
+}
+
+.recent-contents div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 44%;
+    margin-left: 2.45%;
+    margin-right: 2.45%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    text-align: left;
+}
+
+.recent-contents a{
+    text-decoration: none;
+    width: 100%;
+    padding-bottom: 4%;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.recent-contents a:first-child{
+    text-align: left;
+}
+
+.recent-contents a:nth-child(2){
+    float: right;
+}
+
+.brand-logo{
+    width: 100%;
+    text-align: left;
+}
+
+.brand-logo div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.brand-logo div:first-child{
+    width: 15%;
+}
+
+.brand-logo div:last-child{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.brand-logo div h3{
+    padding: 0;
+    margin: 0;
+}
+
+.recent-contents .logo{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+/*styling the product*/
+
+.product{
+    text-align: left;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.product img{
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.product div span{
+    width: 100%;
+    display: block;
+    text-align: left;
+    margin-top: 2%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product div :first-child{
+    margin-top: 0;
+}
+
+/* SIMILAR BRANDS */
+.similar-brands{
+    margin-top: 4%;
+}
+
+
+

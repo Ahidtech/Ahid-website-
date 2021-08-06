@@ -16,7 +16,7 @@
                    <img src="src/icon/message-4652.svg" alt="" srcset="">
                </div>
                <div>
-                   <h1>Signup</h1>
+                   <h1>Create account</h1>
                </div>
                <div></div>
             </header>
@@ -24,7 +24,10 @@
         <section>
             <form action="post">
                 <div>
-                    <input type="text" name="fullName" id="fullName" placeholder="Full name">
+                    <input type="text" name="firstName" id="firstName" placeholder="First name">
+                </div>
+                <div>
+                    <input type="text" name="laststName" id="lastName" placeholder="Last name">
                 </div>
                 <div>
                     <input type="email" name="email" id="email" placeholder="Email">
@@ -40,7 +43,7 @@
                </div>
                <div>
                    <span>
-                       Already a member? <a href="http://">Login</a>
+                       Already a member? <a href="login.php">Login</a>
                    </span>
                </div>
             </form>
