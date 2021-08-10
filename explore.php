@@ -12,7 +12,7 @@
     <?php include "template/header.html"; ?>
     <?php include "template/footer.html"; ?>
 
-    <main class="explore-main">
+    <main>
         <article>
             <div class="explore-brands">
                 <section class="explore-header brands-header">
@@ -20,45 +20,66 @@
                         <span>Explore brands near you</span>
                     </div>
                     <div>
-                        <img src="src/icon/magnifying-glass.svg" alt="" srcset="">
+                        <a href="explore-brands.php">
+                            <img src="src/icon/magnifying-glass.svg" alt="" srcset="">
+                        </a>
                     </div>
                 </section>
+
                 <section class="contents">
-                    <a class="brand-info">
-                        <div class="large-logo">
-                            <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="">
-                        </div>
-                        <div class="brand-name">
-                            <span>Nike</span>
-                        </div>
-                    </a>
-
-                    <a class="brand-info">
-                        <div class="large-logo">
-                            <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="">
-                        </div>
-                        <div class="brand-name">
-                            <span>Adidas</span>
-                        </div>
-                    </a>
-
-                    <a class="brand-info">
-                        <div class="large-logo">
-                            <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="">
-                        </div>
-                        <div class="brand-name">
-                            <span>Chanel</span>
-                        </div>
-                    </a>
-
-                    <a class="brand-info">
-                        <div class="large-logo">
-                            <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="">
-                        </div>
-                        <div class="brand-name">
-                            <span>Louis Vuitton</span>
-                        </div>
-                    </a>
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section class="scroll-indicator">
+                    <span>>></span>
                 </section>
             </div>
 
@@ -71,18 +92,21 @@
                 <section class="recent-contents">
                     <div>
                         <a>
-                            <section class="brand-logo">
+                            <section class="brand-section">
                                 <div>
-                                    <img src="src/image/LT_2952621_02_27.jpg" alt=""class="logo">
+                                    <img src="src/image/LT_B3D43167-166A-457E-8133-2CE34B2B60DD147421_03_01.jpeg" alt=""class="logo">
                                 </div>
                                 <div>
-                                    <h3>Nike</h3>
+                                    <span>Nike</span>
                                 </div>
                             </section>
                             <section class="product">
-                                <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="" srcset="" class="product-image">
                                 <div>
-                                    <span>Product Name</span>
+                                    <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="" srcset="" class="product-image">
+                                </div>
+                                
+                                <div>
+                                    <span>Nike Air max ultra High sole comfortable sneakers for Men</span>
                                     <!--<span>Product Desc</span>-->
                                     <span>N2000</span>
                                 </div>
@@ -92,18 +116,21 @@
                     </div>
                     <div>
                         <a>
-                            <section class="brand-logo">
+                            <section class="brand-section">
                                 <div>
-                                    <img src="src/image/LT_2952621_02_27.jpg" alt=""class="logo">
+                                    <img src="src/image/LT_B3D43167-166A-457E-8133-2CE34B2B60DD147421_03_01.jpeg" alt=""class="logo">
                                 </div>
                                 <div>
-                                    <h3>Nike</h3>
+                                    <span>Nike</span>
                                 </div>
                             </section>
                             <section class="product">
-                                <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="" srcset="" class="product-image">
                                 <div>
-                                    <span>Product Name</span>
+                                    <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="" srcset="" class="product-image">
+                                </div>
+                                
+                                <div>
+                                    <span>Adidas Yeezy X3 ultra anti-slip sole sneakers for men</span>
                                     <!--<span>Product Desc</span>-->
                                     <span>N2000</span>
                                 </div>
@@ -112,20 +139,35 @@
                         </a>
                     </div>
                     <div>
+                        <a href="http://">More</a>
+                    </div>
+                </section>
+            </div>
+            <div class="recent">
+                <section class="explore-header products-header">
+                    <div>
+                        <span>Trending based on your recent searches</span>
+                    </div>
+                </section>
+                <section class="recent-contents">
+                    <div>
                         <a>
-                            <section class="brand-logo">
+                            <section class="brand-section">
                                 <div>
-                                    <img src="src/image/LT_2952621_02_27.jpg" alt=""class="logo">
+                                    <img src="src/image/LT_B3D43167-166A-457E-8133-2CE34B2B60DD147421_03_01.jpeg" alt=""class="logo">
                                 </div>
                                 <div>
-                                    <h3>Nike</h3>
+                                    <span>Nike</span>
                                 </div>
                             </section>
                             <section class="product">
-                                <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="" srcset="" class="product-image">
+                                <div>
+                                    <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="" srcset="" class="product-image">
+                                </div>
+                                
                                 <div>
                                     <span>Product Name</span>
-                                    <!--<span>Product Desc</span>-->
+                                    <span>Product Desc</span>
                                     <span>N2000</span>
                                 </div>
                                 
@@ -134,72 +176,155 @@
                     </div>
                     <div>
                         <a>
-                            <section class="brand-logo">
+                            <section class="brand-section">
                                 <div>
-                                    <img src="src/image/LT_2952621_02_27.jpg" alt=""class="logo">
+                                    <img src="src/image/LT_B3D43167-166A-457E-8133-2CE34B2B60DD147421_03_01.jpeg" alt=""class="logo">
                                 </div>
                                 <div>
-                                    <h3>Nike</h3>
+                                    <span>Nike</span>
                                 </div>
                             </section>
                             <section class="product">
-                                <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="" srcset="" class="product-image">
+                                <div>
+                                    <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="" srcset="" class="product-image">
+                                </div>
+                                
                                 <div>
                                     <span>Product Name</span>
-                                    <!--<span>Product Desc</span>-->
+                                    <span>Product Desc</span>
                                     <span>N2000</span>
                                 </div>
                                 
                             </section>
                         </a>
+                    </div>
+                    <div>
+                        <a href="http://">More</a>
                     </div>
                 </section>
             </div>
             <div class="explore-brands similar-brands">
                 <section class="explore-header brands-header">
                     <div>
-                        <span>Explore similar brands</span>
+                        <span>Similar to your recent searches</span>
                     </div>
                     <div>
                         <img src="src/icon/magnifying-glass.svg" alt="" srcset="">
                     </div>
                 </section>
                 <section class="contents">
-                    <a class="brand-info">
-                        <div class="large-logo">
-                            <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="">
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="brand-info">
+                            <div class="large-logo">
+                                <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="brand-logo">
+                            </div>
+                            <div class="brand-name">
+                                <span>Nike</span>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section class="scroll-indicator">
+                    <span>>></span>
+                </section>
+            </div>
+            <div class="explore-category">
+                <section class="explore-header">
+                    <span>Explore in Men's groom</span>
+                </section>
+                <section class="sub-categories">
+                    <div>
+                        <div>
+                            <a href="">
+                                <div>
+                                    <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>
+                                        Hair care
+                                    </span>
+                                </div>  
+                            </a>                      
                         </div>
-                        <div class="brand-name">
-                            <span>Nike</span>
+                        <div>
+                            <a href="">
+                                <div>
+                                    <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>
+                                        Skin care
+                                    </span>
+                                </div>  
+                            </a>                      
                         </div>
-                    </a>
-
-                    <a class="brand-info">
-                        <div class="large-logo">
-                            <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <div>
+                            <a href="">
+                                <div>
+                                    <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>
+                                        Personal care
+                                    </span>
+                                </div>  
+                            </a>                      
                         </div>
-                        <div class="brand-name">
-                            <span>Adidas</span>
+                        <div>
+                            <a href="">
+                                <div>
+                                    <img src="src/image/LT_FB_IMG_16191379360993074955921_04_24.jpg" alt="">
+                                </div>
+                                <div>
+                                    <span>
+                                        Shaving and beard
+                                    </span>
+                                </div>  
+                            </a>                      
                         </div>
-                    </a>
-
-                    <a class="brand-info">
-                        <div class="large-logo">
-                            <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="">
-                        </div>
-                        <div class="brand-name">
-                            <span>Chanel</span>
-                        </div>
-                    </a>
-
-                    <a class="brand-info">
-                        <div class="large-logo">
-                            <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="">
-                        </div>
-                        <div class="brand-name">
-                            <span>Louis Vuitton</span>
-                        </div>
-                    </a>
+                    </div>
                 </section>
             </div>
         </article>

@@ -33,19 +33,19 @@
                     <input type="email" name="email" id="email" placeholder="Email">
                 </div>
                 <div>
-                    <input type="text" name="Phone" id="number" placeholder="Phone number">
+                    <input type="password" name="password" id="password" placeholder="Password">
                 </div>
-               <div>
-                <input type="password" name="password" id="password" placeholder="Password">
-               </div>
-               <div>
+                <div>
+                   <input type="text" placeholder="Enter your favourite colour(optional)">
+                </div>
+                <div>
                    <button type="submit">Signup</button>
-               </div>
-               <div>
+                </div>
+                <div>
                    <span>
                        Already a member? <a href="login.php">Login</a>
                    </span>
-               </div>
+                </div>
             </form>
         </section>
         <footer>

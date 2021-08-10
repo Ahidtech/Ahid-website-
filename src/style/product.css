@@ -1,53 +1,99 @@
 *{
     box-sizing: border-box;
+    font-family: "poppins", sans-serif;
 }
-
-body{
-    padding: 0;
-    margin: 0;
-    font-family: "poppings", sans-serif;
-}
-
 .container{
+    width: 97%;
+    margin: auto;
+}
+
+.container .header{
+    width: 100%;
+}
+
+.header main{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.header main section{
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header main section:first-child{
+    text-align: left;
+}
+
+.header main section:nth-child(2){
+    text-align: center;
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header main section:last-child{
+    text-align: right;
+}
+
+.product-main >:nth-child(2) img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.toggle-links{
+    width: 30px;
+    height: 30px;
+}
+
+.brand > :first-child{
+    width: 20%;
+}
+
+.brand > :nth-child(2){
+    width: 75%;
+    text-align: left;
+}
+
+.product-body{
     width: 100%;
     margin: auto;
 }
 
-.container main{
+.basic-info{
     width: 100%;
-    background-color: black;
 }
-
-.container main section{
-    width: 30%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.container main section:first-child{
+.basic-info > div{
+    width: 100%;
     text-align: left;
-    background-color: red;
 }
 
-.container main section:nth-child(2){
-    text-align: center;
-    width: 33%;
-    background-color: blue;
+.basic-info div img{
+    width: 100%;
+    height: 250px;
+    margin: auto;
 }
 
-.container main section:last-child{
-    text-align: right;
-    background-color: green;
+.social-option{
+    width: 100%;
+
 }
 
-.container main section img{
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-}
-
-.container main section:nth-child(2) div{
+.social-option div{
     display: inline-block;
     vertical-align: middle;
+    width: 20%;
+}
+
+.social-option div button{
+    width: 29px;
+    height: 30px;
 }
 
