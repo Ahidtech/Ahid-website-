@@ -1,99 +1,259 @@
 *{
-    box-sizing: border-box;
-    font-family: "poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.container{
-    width: 97%;
-    margin: auto;
+body{
+    padding: 2% 0;
+    margin: 0;
 }
-
-.container .header{
+main{
     width: 100%;
 }
 
-.header main{
+header{
     width: 100%;
-    margin: auto;
     text-align: center;
-    margin-top: 20%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #e9e9e9;
 }
 
-.header main section{
-    width: 20%;
+header > div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 75%;
+    font-weight: 600;
+}
+
+header > :first-child{
+    text-align: left;
+}
+
+.brand > a{
+    text-decoration: none;
+    color: black;
+}
+
+.brand > a > div{
     display: inline-block;
     vertical-align: middle;
 }
 
-.header main section:first-child{
-    text-align: left;
+.brand > a > :nth-child(2){
+    margin-left: 2%;
+    font-size: 18px;
 }
 
-.header main section:nth-child(2){
-    text-align: center;
-    width: 50%;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header main section:last-child{
+header > :nth-child(2){
+    width: 20%;
     text-align: right;
 }
 
-.product-main >:nth-child(2) img{
-    width: 40px;
-    height: 40px;
+header img{
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle;
 }
 
-.toggle-links{
-    width: 30px;
-    height: 30px;
+header button{
+    border: none;
+    background-color: #fff;
 }
 
-.brand > :first-child{
-    width: 20%;
+.toggle-link{
+    width: 32px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.brand > :nth-child(2){
-    width: 75%;
-    text-align: left;
+.product-section{
+    width: 100%;
+    margin-top: 1%;
 }
-
-.product-body{
+.product-image{
+    width: 100%;
+    white-space: nowrap;
+    overflow-y: auto;
+}
+.product-image div{
     width: 100%;
     margin: auto;
+    text-align: center;
+}
+.product-section img{
+    max-width: 85%;
+    max-height: 45vh;
+    margin: auto;
+    background: #fff;
+    border: none;
 }
 
 .basic-info{
-    width: 100%;
+    width: 96%;
+    margin: auto;
+    margin-top: 3%;
 }
-.basic-info > div{
+
+.basic-info div{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.basic-info > :nth-child(2){
+    margin-top: 3%;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.product-content{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.social-options{
     width: 100%;
+    margin-top: 2%;
+}
+
+.social-options div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    margin-left: 4%;
+    text-align: center;
+}
+
+.social-options div:first-child{
+    margin-left: 0;
+}
+
+.social-options div button{
+    border: none;
+    background-color: transparent;
+}
+
+.social-options div img{
+    width: 32px;
+    height: 34px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-options div span{
+    display: block;
+    font-size: 13px;
+}
+
+.social-options div a{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.buy-options{
+    width: 96%;
+    margin: auto;
+    margin-top: 7%;
     text-align: left;
 }
 
-.basic-info div img{
-    width: 100%;
-    height: 250px;
+.buy-options > div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 47%;
     margin: auto;
 }
 
-.social-option{
+.buy-options > :nth-child(2){
+    margin-left: 2%;
+}
+
+.buy-options > :nth-child(2) button{
+    background-color: turquoise;
+}
+
+.buy-options > :first-child button{
+    font-weight: 600;
+}
+
+.buy-options button{
     width: 100%;
-
+    padding-top: 6%;
+    padding-bottom: 6%;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(0, 148, 133);
+    border-radius: 5px;
 }
 
-.social-option div{
-    display: inline-block;
-    vertical-align: middle;
-    width: 20%;
+.product-info{
+    width: 100%;
+    margin-top: 10%;
 }
 
-.social-option div button{
-    width: 29px;
-    height: 30px;
+.info-header{
+    width: 96%;
+    margin: auto;
+    font-size: 18px;
+    border-bottom: 1px solid #e9e9e9;
 }
 
+.information{
+    width: 96%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.information span{
+    font-family: 'Poppins', sans-serif!important;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+.comments{
+    margin-top: 7%;
+}
+
+.comments em{
+    font-style: normal;
+    color: grey;
+}
+
+.comments{
+    width: 100%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.comment-section > div{
+    margin-top: 2%;
+}
+
+.comment-section > div > div{
+    width: 96%;
+    margin: auto;
+}
+
+.user{
+    font-weight: 600;
+}
+
+.user-comment{
+    margin-top: 2%;
+}
+
+@media screen and (min-width: 768px) {
+    .product-section img{
+        max-width: 70%;
+        max-height: 85vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .product-section img{
+        max-width: 100%;
+        max-height: 75vh;
+    }
+}

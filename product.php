@@ -5,84 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style/product.css">
-    <title>product_name</title>
+    <link rel="stylesheet" href="src/style/fonts.css">
+    <title>Product</title>
 </head>
 <body>
-    <?php include "template/header.html"; ?>
-    <?php include "template/footer.html"; ?>
-
-    <div class="container">
-        <section class="header">
-            <main class="product-main">
-                <section>
-                    <img src="src\icon\message-4652.svg" alt="" srcset="" class="toggle-links">
-                </section>
-
-                <section class="brand">
+    <main>
+        <header>
+            <div class="brand">
+                <a href="http://">
                     <div>
-                        <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="">
+                        <img src="src/image/LT_B3D43167-166A-457E-8133-2CE34B2B60DD147421_03_01.jpeg" alt="">
                     </div>
                     <div>
-                        <h3>NIKE</h3>
+                        NIKE
                     </div>
-                </section>
-
-                <section>
-                    <a href="http://">Explore</a>
-                </section>
-            </main>
-        </section>
-
-        <section class="product-body">
+                </a>
+            </div>
+            <div>
+                <button>
+                    <img src="src/icon/list.svg" alt="" srcset="" class="toggle-link">
+                </button>
+            </div>
+            
+        </header>
+        <section class="product-section">
+            <div class="product-image">
+                <div>
+                    <img src="src/image/LT_2952621_02_27.jpg" alt="">
+                </div>
+            </div>
             <div class="basic-info">
                 <div>
-                    <img src="src/image/LT_FB_IMG_16191380591837805895221_05_17.jpg" alt="nike air max" srcset="">
+                    Nike Air Max x3 ultra
                 </div>
                 <div>
-                    <span>Nike Air Max</span>
-                </div>
-                <div>
-                    <span>N15000</span>
+                    $ 15000
                 </div>
             </div>
-            <div class="social-options">
-                <div>
-                    <button>
-                        <img src="src/icon/message-4652.svg" alt="" srcset="">
-                    </button>
+            <div class="product-content">
+                <div class="social-options">
+                    <div>
+                        <button>
+                            <img src="src/icon/message-4652.svg" alt="" srcset="">
+                        </button>
+                        <span> 
+                            999
+                        </span>
+                    </div>
+                    <div>
+                        <button>
+                            <img src="src/icon/message-4652.svg" alt="" srcset="">
+                        </button>
+                        <span>
+                            70
+                        </span>
+                    </div>
+                    <div>
+                        <a href="http://">
+                            <button>
+                                <img src="src/icon/message-4652.svg" alt="" srcset="">
+                            </button>
+                            <span> 12.1k</span>
+                        </a>                        
+                    </div>
+                    <div>
+                        <button>
+                            <img src="src/icon/message-4652.svg" alt="" srcset="">
+                        </button>
+                        <span>
+                            Share
+                        </span>
+                    </div>
+                    <div>
+                        <button>
+                            <img src="src/icon/message-4652.svg" alt="" srcset="">
+                        </button>
+                        <span>
+                            wishlist
+                        </span>
+                    </div>
                 </div>
-                <div>
-                    <button>
-                        <img src="src/icon/message-4652.svg" alt="" srcset="">
-                    </button>
+                <div class="buy-options">
+                    <div>
+                        <button>Add to cart</button>
+                    </div>
+                    <div>
+                        <a href="">
+                            <button>Buy now</button>
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <button>
-                        <img src="src/icon/message-4652.svg" alt="" srcset="">
-                    </button>
+                <div class="product-info">
+                    <div class="info-header">
+                        <span>
+                            PRODUCT INFORMATION
+                        </span>
+                    </div>
+                    <div class="information">
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit id blanditiis iste voluptatem, quidem dolorum dicta eaque facere incidunt ipsam asperiores quos nesciunt eveniet fugiat at quis quaerat, ipsa iusto?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat facilis enim, sunt officia magni fugit sint laudantium perspiciatis vitae esse deleniti molestias commodi? Doloremque tenetur delectus nemo iste distinctio.
+                        </span>
+                    </div>
                 </div>
-            </div>
-            <div class="buy-options">
-                <div>
-                    <a href="http://">Buy Item</a>
+                <div class="comments">
+                    <section class="info-header">
+                        <span>
+                            Comments <em>(12.1k)</em>
+                        </span>
+                    </section>
+
+                    <section class="comment-section">
+                        <div>
+                            <div class="user">
+                                <span>
+                                    Mary Lanceloth
+                                </span>
+                            </div>
+                            <div class="user-comment">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laboriosam asperiores tenetur obcaecati repudiandae optio, id assumenda repellat, ipsum facere itaque ut modi praesentium necessitatibus. Voluptatibus magni ut reiciendis pariatur.
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <button>Add to cart</button>
-                </div>
-                <div>
-                    <button>
-                        <img src="src/icon/speech-bubble.svg" alt="" srcset="">
-                    </button>
-                </div>
-            </div>
-            <div class="product-info">
-                <span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita animi nesciunt architecto cupiditate culpa. Cumque aperiam dolorem, rem, distinctio ullam dolore natus optio ea soluta iure doloribus aut quasi odit?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veritatis rerum quos excepturi necessitatibus autem non odit tenetur fugiat quae quas blanditiis eius facere hic consectetur, quo optio reiciendis quis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus delectus incidunt sunt molestias sequi dolorum, repellendus quidem praesentium temporibus, saepe quo sapiente, eveniet natus voluptatibus obcaecati ad impedit aut minus?
-                </span>
             </div>
         </section>
-    </div>
+    </main>
 </body>
 </html>

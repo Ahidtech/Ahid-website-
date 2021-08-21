@@ -8,8 +8,8 @@
         right: 0;
         width: 100%;
         box-shadow: 2px 2px 8px 2px #e1e1e1;
-        padding-top: 3.5%;
-        padding-bottom: 3.5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
         z-index: 2;
     }
     footer div{
@@ -18,36 +18,69 @@
         justify-content: space-around;
         align-items: center;
     }
+
+    footer div div{
+        text-align: center;
+        margin: auto;
+    }
+
+    footer div div a{
+        text-decoration: none;
+        color: #444;
+        text-align: center;
+    }
+
     footer div div img{
-        height: 32px;
-        width: 32px;
+        height: 20px;
+        width: 20px;
+        margin: auto;
+    }
+    footer div div a img:nth-child(2) {
+        display: none;
+    }
+    footer div div span{
+        display: none;
+        font-size:11px;
+        font-family: 'Roboto', sans-serif;
+        color: #444;
+        margin-top: 15%;
     }
 </style>
 <footer>
     <div>
         <div>
             <a href="home.php">
-                <img src="src/icon/message-4652.svg" alt="">
+                <img src="src/icon/home.svg" alt="">
+                <img src="src/icon1/home.svg" alt="">
+                <span>Home</span>
             </a>
         </div>
         <div>
-            <a href="explore.php">
-                <img src="src/icon/message-4652.svg" alt="">
+            <a href="shop.php">
+                <img src="src/icon/bag.svg" alt="">
+                <img src="src/icon1/bag.svg" alt="">
+                <span>Shop</span>
             </a>
         </div>
         <div>
             <a href="subscription.php">
-                <img src="src/icon/message-4652.svg" alt="">
+                <img src="src/icon/subscribe-rss-button.svg" alt="">
+                <img src="src/icon1/subscribe-rss-button.svg" alt="">
+                <span>Subscriptions</span>
             </a>
         </div>
         <div>
             <a href="notification.php">
-                <img src="src/icon/message-4652.svg" alt="">
+                <img src="src/icon/bell.svg" alt="">
+                <img src="src/icon1/bell.svg" alt="">
+                <span>Notifications</span>
             </a>
         </div>
         <div>
             <a href="profile.php">
-                <img src="src/icon/message-4652.svg" alt="">
+                <img src="src/icon/user.svg" alt="">
+                <img src="src/icon1/user.svg" alt="">
+                <span>Profile</span>
             </a>
         </div>
     </div>

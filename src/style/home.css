@@ -1,3 +1,17 @@
+/* FOOTER PART */
+
+footer div div:first-child a img:nth-child(1) {
+    display: none!important;
+}
+footer div div:first-child a img:nth-child(2) {
+    display: block!important;
+}
+footer div div:first-child a span{
+    display: block!important;
+}
+
+/* FOOTER END */
+
 .home-main{
     margin-top: 14%;
     margin-bottom: 20%;
@@ -28,12 +42,12 @@
     margin: auto;
 }
 
-article{
+.home-main > article{
     margin-top: 3%;
     border-bottom: 3px solid #f9f9f9;
     padding-bottom: 3%;
 }
-article > :first-child{
+.home-main > article > :first-child{
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
@@ -51,15 +65,15 @@ article > :first-child{
 .brand-name div{
     text-align: left;
 }
-article > :first-child .brand{
+.brand{
     width: 60%;
     display: inline-block;
     vertical-align: middle;
 }
-article > :first-child .brand-logo{
+.brand-logo{
     width: 30%;
 }
-article > :first-child .brand-logo img{
+.brand-logo img{
     height: 50px;
     width: 50px;
     border-radius: 50px;
@@ -75,7 +89,7 @@ article > :first-child .brand-logo img{
 }
 
 
-article .second-section{
+.home-main article .second-section{
     margin-top: 2%;
 }
 article .second-section div{

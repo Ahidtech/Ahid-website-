@@ -9,6 +9,7 @@
     <title>SIGNUP</title>
 </head>
 <body>
+    <?php include template/header.html"
     <div class="container">
         <section>
             <header>
@@ -39,7 +40,7 @@
                    <input type="text" placeholder="Enter your favourite colour(optional)">
                 </div>
                 <div>
-                   <button type="submit">Signup</button>
+                   <button type="submit">CREATE ACCOUNT</button>
                 </div>
                 <div>
                    <span>

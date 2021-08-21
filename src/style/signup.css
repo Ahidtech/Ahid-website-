@@ -82,8 +82,8 @@ header h1{
 }
 
 .container section form button{
-    background-color:#000;
-    width: 45%;
+    background-color:rgb(34, 34, 34);
+    width: 90%;
     border-radius: 10px;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
