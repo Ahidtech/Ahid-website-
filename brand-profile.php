@@ -19,10 +19,10 @@
                     <div>
                         <img src="src/image/LT_2952621_02_27.jpg" alt="" srcset="" class="main-image">
                     </div>
-                    <div>
+                    <div class="main-info">
                         <div>Nike</div>
-                        <div class="tag">
-                            #Just do it
+                        <div class="subscribers">
+                            <span>19.7K subscribers</span>
                         </div>
                         <div class="subscribe">
                             <div>
@@ -34,35 +34,42 @@
                 
                 <div class="main-details">  
                     <div>
-                        <span class="element-to-toggle summary">
-                            ipsum dolor sit amet consectetur adipisicing elit. Fugiat, totam laborum non quos pariatur cumque quibusdam voluptatem libero voluptatum dolore fugit ad dolorem. Tempora et iste ex corrupti officia ad.
-                        </span>
-                        <span class="visible-summary decoy" onclick="toggle(this)">
+                        <div>
+                            <span>#Just do it</span>
+                        </div>
+                        <div>
+                            <img src="src/icon/pin.svg" alt=""> <span>Bearenton, Oregon, Nike Inc.</span>
+                        </div>
+                        <div>
+                            <span class="element-to-toggle summary">
+                                ipsum dolor sit amet consectetur adipisicing elit. Fugiat, totam laborum non quos pariatur cumque quibusdam voluptatem libero voluptatum dolore fugit ad dolorem. Tempora et iste ex corrupti officia ad.
+                            </span>
+                            <span class="visible-summary decoy" onclick="toggle(this)">
 
-                        </span>
-                        <span  class="see-more">
-                            see more
-                        </span>
+                            </span>
+                            <span  class="see-more">
+                                see more
+                            </span>
+                        </div>
                     </div>
+                    
                 </div>
             </section>
-            <!--<section class="about info">
+        </div>
+
+        <div class="activities">
+            <nav>
                 <div>
-                    <img src="src/icon/message-4652.svg" alt="" srcset="">
+                    Products
                 </div>
                 <div>
-                    Nike designs, develops, markets and sells athletic footwear, apparel, equipments and accessories.
+                    Posts
                 </div>
-            </section>
-            <section class="location info">
-                <div>
-                    <img src="src/icon/message-4652.svg" alt="" srcset="">
-                </div>
-                <div>
-                    Bearenton, Oregon, Nike Inc.
-                </div>
-            </section>-->
-        </div>  
+            </nav>
+            <article>
+                <?php include "template/product.php"; ?>
+            </article>
+        </div>
     </main>
 </body>
 <script src="src/js/func.js"></script>

@@ -1,5 +1,5 @@
 //55px
-var header = document.querySelector(".template-header")
+/*var header = document.querySelector(".template-header")
 var last_position = 0
 window.document.addEventListener("scroll", function(ev) {
     var window_pos = window.pageYOffset
@@ -12,4 +12,4 @@ window.document.addEventListener("scroll", function(ev) {
         }
     }
     last_position = window.pageYOffset
-})
+})*/
